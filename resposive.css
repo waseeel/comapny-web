@@ -1,0 +1,29 @@
+@media screen and (max-width: 670px){
+	#row-res {
+		display: none;
+	}
+	.nav-for-mobile{
+color: #000;
+font-size: 25px;
+display: block;
+right: 20px;
+position: absolute;
+top: 25px;
+		
+}
+	.slider {
+    width: 100%;
+	margin-top: 40px;
+}
+}
+@media screen and (min-width: 670px){
+	.nav-for-mobile{
+color: #000;
+font-size: 25px;
+display: none;;
+right: 20px;
+position: absolute;
+top: 25px;
+		
+}
+}

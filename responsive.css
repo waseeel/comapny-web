@@ -1,0 +1,232 @@
+/* 
+ز
+*/
+@media screen and (max-width: 845px){
+    div.via-linkedin {
+        width: 245px;
+        height: 155px;
+    }
+    div.via-email {
+        width: 245px;
+        height: 155px;
+    }
+    p.way-p {
+        font-size: 16px;
+    }
+    #link-icon {
+font-size: 35px;
+    }
+    #email-icon {
+        font-size: 35px;
+
+
+    }
+    ul li{
+        
+        margin: 40px 25px;
+        
+    }
+    
+    
+    
+    a {
+        direction: rtl;
+        transform: .3s;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 845px){
+    #id-for-list {
+        display: none;
+    }
+    .nav-for-mobile {
+        display: block;
+    }
+}
+@media screen and (max-width: 600px){
+    div.via-linkedin {
+        width: 245px;
+        height: 155px;
+        direction: block;
+        right: 25%;
+    left: auto;
+    top: 15%;
+    }
+    .modal {
+
+    
+    height: 400px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+}
+    div.via-email {
+        width: 245px;
+        height: 155px;
+       /* margin: 250px 20px;*/
+       direction: block;
+       top: 50%;
+       left: auto;
+       right: 25%;
+    }
+    div.container {
+        
+        height: 500px;
+    }
+    .contact-way {
+        position: absolute;
+        width: 100%;
+        height: 470px;
+        padding: 40px 0px;
+        top:20%;
+    }
+    
+}
+@media screen and (max-width: 580px){
+    div.via-linkedin {
+        width: 245px;
+        height: 155px;
+        direction: block;
+        right: 23%;
+    left: auto;
+    top: 15%;
+    }
+    div.via-email {
+        width: 245px;
+        height: 155px;
+       /* margin: 250px 20px;*/
+       direction: block;
+       top: 50%;
+       left: auto;
+       right: 23%;
+    }
+}
+@media screen and (max-width: 580px){
+    div.via-linkedin {
+        width: 245px;
+        height: 155px;
+        direction: block;
+        right: 20%;
+    left: auto;
+    top: 15%;
+    }
+    div.via-email {
+        width: 245px;
+        height: 155px;
+       /* margin: 250px 20px;*/
+       direction: block;
+       top: 50%;
+       left: auto;
+       right: 20%;
+    }
+    .modal {
+
+    
+        height: 400px;
+        width: 450px;
+    }
+}
+@media screen and (max-width: 420px){
+    div.via-linkedin {
+        width: 245px;
+        height: 155px;
+        direction: block;
+        right: 17%;
+    left: auto;
+    top: 15%;
+    }
+    .modal {
+
+    
+        height: 400px;
+        width: 380px;
+    }
+    div.via-email {
+        width: 245px;
+        height: 155px;
+       /* margin: 250px 20px;*/
+       direction: block;
+       top: 50%;
+       left: auto;
+       right: 17%;
+    }
+}
+@media screen and (max-width: 400px){
+    div.via-linkedin {
+        width: 245px;
+        height: 155px;
+        direction: block;
+        right: 13%;
+    left: auto;
+    top: 15%;
+    }
+    div.via-email {
+        width: 245px;
+        height: 155px;
+       /* margin: 250px 20px;*/
+       direction: block;
+       top: 50%;
+       left: auto;
+       right: 13%;
+    }
+    .modal {
+
+    
+        height: 400px;
+        width: 360px;
+    }
+}
+@media screen and (max-width: 360px){
+    div.via-linkedin {
+        width: 245px;
+        height: 155px;
+        direction: block;
+        right: 10%;
+    left: auto;
+    top: 15%;
+    }
+    .modal {
+
+    
+        height: 400px;
+        width: 340px;
+    }
+    div.via-email {
+        width: 245px;
+        height: 155px;
+       /* margin: 250px 20px;*/
+       direction: block;
+       top: 50%;
+       left: auto;
+       right: 10%;
+    }
+}
+@media screen and (max-width: 320px){
+    div.via-linkedin {
+        width: 245px;
+        height: 155px;
+        direction: block;
+        right: 6%;
+    left: auto;
+    top: 15%;
+    }
+    div.via-email {
+        width: 245px;
+        height: 155px;
+       /* margin: 250px 20px;*/
+       direction: block;
+       top: 50%;
+       left: auto;
+       right: 6%;
+    }
+}
+@media screen and (max-width: 665px){
+    a {
+        
+        font-size: 12px;
+    }
+}
+

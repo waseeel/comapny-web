@@ -1,0 +1,147 @@
+
+body {
+    background: white;
+    width: auto;
+	font-family: 'Tajawal', sans-serif;
+
+}
+
+.nav-for-mobile{
+
+font-size: 28px;
+display: none;
+right: 20px;
+position: absolute;
+top: 20px;
+	display: none;
+}
+h1.title-page {
+    margin: 70px auto;
+    width: max-content;
+    font-size: 30px;
+		font-family: 'Tajawal';
+
+}
+.page-site {
+    margin: 0 auto;
+    width: max-content;
+}
+.page-site a {
+    padding: 8px;
+    color: black;
+    text-decoration: none;
+    border: 1px #eee solid;
+    background: #eee;
+}
+.page-site a:hover {
+    background: #fbc54de3;
+    border: #fbc54de3;
+
+}
+.persone1 , .persone2 , .persone3 , .persone4 , .persone5 {
+    margin: 50px auto;
+    width: max-content;
+    box-shadow: 10px 0px 40px rgba(0, 0, 0, 0.12), -20px 4px 20px rgba(0, 0, 0, 0.24);
+}
+p.text-persone {
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.img-personne {
+    margin: 0 auto;
+    width: max-content;
+}
+img {
+    border: 1px black solid;
+    border-radius: 70px;
+}
+
+h5 {
+    margin: 0px auto;
+    width: max-content;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.profail {
+    margin: 20px auto;
+    width: max-content;
+    text-decoration: none;
+}
+a.profail {
+    border: 1px #eee solid;
+    padding: 5px;
+    background: #eee;
+    color: black;
+    border-radius: 20px;
+}
+a.profail:hover {
+    background: #fbc54de3;
+    border: #fbc54de3;
+}
+/* new */
+
+.sar
+{
+background: #00bcd4;
+text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  li {
+    float: right;
+  }
+ul li {
+	display: inline;
+}
+  
+  li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+ul li:hover{
+		  color: white;
+
+}
+
+li a:hover {
+	color: aliceblue;
+}
+  li a:hover:not(.active) {
+    background-color: #ffffff;
+	  color: white;
+  }
+  
+  .active {
+    background-color: #ffc004;
+  }
+  /* card */
+
+.card
+{
+    text-align: center;
+}
+.cards
+{
+/* margin: 20px; */
+margin-left: 0 auto;
+}
+.icon
+{
+  font-size: 40px;
+  padding-top: 15px;
+  color: #2169a1;
+}
+/* shop */
+.Producer
+{
+    border: 2px rgb(88, 85, 85) solid;
+}

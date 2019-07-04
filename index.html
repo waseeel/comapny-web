@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/all.css" />
+  <script src="https://momentjs.com/downloads/moment-with-locales.js"></script>
+  <link rel="stylesheet" href="https://cdn.rtlcss.com/bootstrap/v4.0.0/css/bootstrap.min.css"
+    integrity="sha384-P4uhUIGk/q1gaD/NdgkBIl3a6QywJjlsFJFk7SPRdruoGddvRVSwv5qFnvZ73cpz" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/animate.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+	    <link rel="stylesheet" type="text/css" href="resposive.css" />
+    <title>نحن نوجهك</title>
+</head>
+	<style>
+		/* تنسيق القائمة الجانبية */
+#side-list-js {
+    position: fixed;
+    top: 0px;
+    height: 100%;
+    width: 0px;
+    right: 0;
+    background-color: #fff;
+    overflow-y: hidden;
+    transition: all 1s;
+    z-index: 2;
+float: right;
+    display: block;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.59);
+}
+.side-list ul li{
+    display: block;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+clear: right;
+height: 50px;
+}
+.side-list ul {
+margin-top: 0px;
+height: 430px;
+    clear: right;
+    margin-top: 50px;
+    padding-top: 50px;
+
+
+}
+.nav-for-mobile {
+/*	display: none;*/
+}
+
+
+
+.side-list li{
+padding: 10px 10px 10px 10px;;
+height: 50px;
+width: 100%;
+overflow: hidden;
+margin: 0px;
+text-align: center;
+
+}
+.side-list a {
+    color: #000000;
+    direction: rtl;
+text-align: center;
+display: block;
+width: 100%;
+height: 50px;;
+margin: 0px;
+font-size: 15px;
+font-weight: 900;
+line-height: 2.5;
+}
+.side-list a:hover{
+   color: #0f0f0f;
+}
+.side-list ul li:hover{
+    display: block;
+   border-radius: 3px;
+   transition: 0.5s;
+   background-color: rgb(253, 195, 6);
+
+color: #000;
+}
+.nav-in-side {
+height: 57px;
+width: 100%;
+background-color: #696969;
+}
+.logo-in-side {
+width: 57px;
+float: right;
+height: 57px;
+margin: 0px;
+}
+.side-list ul li, a:hover{
+color: #000;
+}
+.side-list ul {
+   padding: 0px 0px;
+clear: both;
+   
+}
+.close-menu-button {
+   color: rgb(255, 166, 0);
+   font-size: 25px;
+position: absolute;
+top: 7px;
+   background: none;
+border: none;
+outline: none;
+cursor: pointer;
+	left: 10px;
+	outline: none;
+}
+.close-menu-button:hover{
+color: rgb(255, 167, 0)
+}
+/* side list end */
+	</style>
+
+<body>
+<div class="sar">
+  <a href="#">
+    <script>
+      moment.locale('ar');
+      var was = "اليوم: يوم " + moment().format('dddd') + " الموافق :" + moment().format("MMM Do YYYY");
+      document.write(was);
+		function openSide() {
+    document.getElementById("side-list-js").style.width ="300px";
+//		document.getElementById("mainbox").style.marginLeft="300px";
+}
+function closeSide(){
+    document.getElementById("side-list-js").style.width ="0px";
+//			document.getElementById("mainbox").innerHTML="&#9776;";
+}
+    </script>
+  </a>
+</div>
+  <!-- بداية النافبار  -->
+  <div>
+    <div id="row-res" class="row">
+      <div class="col-lg-12 col-sm-12 col-xl-12 col-md-12">
+        <ul>
+          <li><a class="active" href="index.html"> الصفحة الرئيسية <i class="fas fa-home"></i></a></li>
+          <li><a href="shop.html">منتجاتنا <i class="fas fa-shopping-cart"></i></a></li>
+          <li><a href="Projects.html">المشاريع <i class="fas fa-tasks"></i></a></li>
+          <li><a href="jops.html">الموظفون <i class="fas fa-user-tie"></i></a></li>
+          <li><a href="about.html">من نحن <i class="fas fa-question-circle"></i></a></li>
+          <li><a href="index2.html">أتصل بنا <i class="fas fa-phone-square-alt"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+	
+
+  <!-- النهاية النافبار -->
+  <!-- بداية السلايدر -->
+  <div class="wrapper animated fadeInLeft">
+
+    <div class="slider">
+
+      <input type="radio" name="switche" id="text" checked class="switch">
+      <label for="text" class="label">IMAGE 2</label>
+      <div class="content">
+        <img
+          src="https://1.bp.blogspot.com/-9WOign8KhMo/WDbu4lyOjMI/AAAAAAAAFEw/KUrmXIS3cO8YUfGGtynquj3mr5sgNiNbQCEw/s1600/1.png">
+      </div>
+
+      <input type="radio" name="switche" id="image1" class="switch">
+      <label for="image1" class="label">IMAGE 1</label>
+      <div class="content">
+        <img
+          src="https://4.bp.blogspot.com/-i30RSbd0g3E/WDbu3OoqkuI/AAAAAAAAFEo/nn88p2P7ZD8Bv6mTYNV5-aG-PsYM_z7SwCEw/s1600/2.png">
+      </div>
+
+      <input type="radio" name="switche" id="image2" class="switch">
+      <label for="image2" class="label">IMAGE 3</label>
+      <div class="content">
+        <img
+          src="https://4.bp.blogspot.com/-VjEJQNlSUBQ/WDbu301UryI/AAAAAAAAFEs/x-5Avv0WQY4faxIzzGVsqbyyaYmJpsAhwCEw/s1600/3.png">
+      </div>
+
+      <div class="bottom"></div>
+    </div>
+
+
+  </div>
+	<!--القائمة الجانبية-->
+<div class="nav-for-mobile" onclick="openSide()"><i class="fas fa-bars"></i></div></ul>
+<div id="side-list-js" class="side-list">
+        <div class="nav-in-side">
+            <img src="logo.png" class="logo-in-side">
+            <button type="button" class="close-menu-button" onclick="closeSide()"><i class="fas fa-arrow-circle-right"></i></button>
+                    <ul>
+                                            
+                        <a href="#"><li><i class="fas fa-home"></i>&nbsp;الرئيسية</li></a>
+                        <a href="#"><li><i class="fas fa-shopping-cart"></i>&nbsp;منتجاتنا</li></a>
+                        <a href="#"><li><i class="fas fa-tasks"></i>&nbsp;المشاريع</li></a>
+                        <a href="#"><li><i class="fas fa-user-tie"></i>&nbsp;الموظفون</li></a>
+                        <a href="#"><li><i class="fas fa-question-circle"></i>&nbsp;من نحن</li></a>
+                        
+                        
+                    </ul>
+                        
+                        </div>
+                    </div>
+<!--القائمة الجانبية-->
+  <!-- نهاية السلايدر -->
+<!---->
+<div class="text-center" style="margin: 20px;">
+<h1 class="animated fadeInRight	">لماذا نحن نوجهك</h1>
+<div class="row row-eq-height justify-content-center animated fadeInDown">
+    <div class="col-lg-3 mb-6">
+        <div class="card wow bounceInUp" style="visibility: visible; animation-name: bounceInUp;">
+            <i class="fas fa-binoculars"></i>
+            <div class="card-body">
+                <h5 class="card-title">رؤيتنا</h5>
+                <p class="card-text">أن نصبح الافضل في توفير الحلول البرمجية التجارية والطبية عالية الجودة في مجال التنافس التقني</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 mb-6">
+        <div class="card wow bounceInUp" style="visibility: visible; animation-name: bounceInUp;">
+            <i class="fas fa-location-arrow"></i>
+            <div class="card-body">
+                <h5 class="card-title">مهمتنا</h5>
+                <p class="card-text">توفير رضا العملاء المستمر، من خلال توفير الأفضل في مجال التكنولوجيا مع أعلى جودة</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 mb-6">
+        <div class="card wow bounceInUp" style="visibility: visible; animation-name: bounceInUp;">
+            <i class="far fa-lightbulb"></i>
+            <div class="card-body">
+                <h5 class="card-title">قيمنا</h5>
+                <p class="card-text">في شركة نحن نوجهك، القيم التي نلتزم بها جعلتنا من نحن اليوم. لقد شكلت ثقافتنا وأخلاقيات العمل وقراراتنا ؛ وساعدتنا في دفع عجلة التقدم أكثر لنكون أفضل مما كنا عليه بالأمس</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 mb-6">
+        <div class="card wow bounceInUp" style="visibility: visible; animation-name: bounceInUp;">
+            <i class="far fa-handshake"></i>
+            <div class="card-body">
+                <h5 class="card-title">التركيز على عملائنا</h5>
+                <p class="card-text">نحن ملتزمون بتوفير التركيز العالي لجميع العقود بيننا وبين عملائنا دون أي اختلافات بغض النظر عن الحجم أو الربحية أو الأهمية. جميع العملاء متساوون ومهمون لنا</p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<section id="What-us">
+    <div class="container text-center">
+        <header class="section-header wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+            <h3>ماذا يمكنك أن تحقق باستخدام برامجنا</h3>
+        </header>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s" style="visibility: visible; animation-duration: 1.4s; animation-name: bounceInUp;">
+                <div class="icon"><i class="fas fa-sort-amount-up"></i></div>
+                <h4 class="title"><a>زيادة الإيرادات والأرباح الخاصة بك</a></h4>
+                <p class="description">قم بقياس وتحسين أداء اعمالك باستراتيجيات أفضل باستخدام التقارير التفاعلية التي يوفرها النظام لكافة أجزاء العمل</p>
+            </div>
+            <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s" style="visibility: visible; animation-duration: 1.4s; animation-name: bounceInUp;">
+                <div class="icon"><i class="fas fa-medal"></i></div>
+                <h4 class="title"><a>تحسين وزيادة سمعة العلامة التجارية الخاصة بك</a></h4>
+                <p class="description">وفر لعملائك تجربة رائعة نجاحه في مجال عملك للحصول على المزيد من قنوات التسويق من خلال عملاء سعداء</p>
+            </div>
+            <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s" style="visibility: visible; animation-duration: 1.4s; animation-name: bounceInUp;">
+                <div class="icon"><i class="fas fa-percent"></i></div>
+                <h4 class="title"><a>تحسين الإنتاجية</a></h4>
+                <p class="description">تحسين الأداء وأتمتة العمليات بين أقسام العمل لضمان مستويات إنتاجية مثالية لفريقك</p>
+            </div>
+            <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s" style="visibility: visible; animation-duration: 1.4s; animation-delay: 0.1s; animation-name: bounceInUp;">
+                <div class="icon"><i class="fas fa-dolly-flatbed"></i></div>
+                <h4 class="title"><a>التحكم بالمخزون بشكل أفضل</a></h4>
+                <p class="description">قم بزيادة التحكم في المخزون الخاص بك إلى أقصى حد لضمان التحكم الدقيق ومستويات إعادة الطلب المثلى</p>
+            </div>
+            <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s" style="visibility: visible; animation-duration: 1.4s; animation-delay: 0.1s; animation-name: bounceInUp;">
+                <div class="icon"><i class="fas fa-eye"></i></div>
+                <h4 class="title"><a>رؤية أوضح لأعمالك</a></h4>
+                <p class="description">تساعدك أنظمة نحن نوجهك في معرفة تفاصيل عملك اليومية لتتبع كل شيء في شركتك او مؤسستك بشكل أفضل وذلك عن طريق مراحل العمل الالكترونية التي تتم عن طريق النظام في كافة أقسام العمل</p>
+            </div>
+            <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s" style="visibility: visible; animation-duration: 1.4s; animation-delay: 0.1s; animation-name: bounceInUp;">
+                <div class="icon"><i class="fas fa-graduation-cap"></i></div>
+                <h4 class="title"><a>سهولة في الاستخدام و التعلم</a></h4>
+                <p class="description">ميزات بسيطة وسهلة الاستخدام تتيح للمستخدمين الجدد بدء استخدام البرنامج بسرعة وسهولة</p>
+            </div>
+            <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s" style="visibility: visible; animation-duration: 1.4s; animation-delay: 0.1s; animation-name: bounceInUp; margin: 0 auto">
+                <div class="icon"><i class="fas fa-cloud"></i></div>
+                <h4 class="title"><a>دعم فني في كل المشاكل</a></h4>
+                <p class="description">يصحبك الدعم الفني في كل المشاورك معنا حتى على الاستضافة للمساعدة في تركيبها .</p>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="sar " style="color: white">
+   <div class="text-right icon" style="display: inline;text-align: left">
+      <a href="https://www.linkedin.com/company/%D9%86%D8%AD%D9%86-%D9%86%D9%88%D8%AC%D9%87%D9%83/?viewAsMember=true"><i class="fab fa-linkedin"></i>   </a>
+      <a href="nhn.nawjhak@gmail.com"><i class="fas fa-envelope"></i> nhn.nawjhak@gmail.com   </a>
+     </div>
+     <p class="text-center">
+     <script>
+    document.write(moment().format('YYYY') + '@' + "كل الحقوق محفوظة");
+    </script>
+  </p>
+  
+</div>
+</body>
+</html>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.rtlcss.com/bootstrap/v4.0.0/js/bootstrap.min.js"
+  integrity="sha384-54+cucJ4QbVb99v8dcttx/0JRx4FHMmhOWi4W+xrXpKcsKQodCBwAvu3xxkZAwsH" crossorigin="anonymous"></script>
