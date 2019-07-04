@@ -1,0 +1,292 @@
+html {
+    height: 100%;;
+}
+body {
+    margin: 0px;
+    font-family: 'Tajawal', sans-serif;
+    
+
+}
+.header {
+    margin-top: -80px;
+    height: 430px;
+    width: 100%;
+    background-image: url(dfsd.png);
+}
+ul li{
+    text-decoration: none;
+    margin: 40px 30px;
+    display: inline;
+    direction: rtl;
+}
+
+ul {
+    direction: rtl;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    margin-top: 80px;
+    direction: rtl;
+    transform: .3s;
+}
+.menu {
+    height: 50px;
+    width: 100%;
+    margin-top: 50px;
+    padding-top: 30px;
+}
+.container {
+    width: 100%;
+    height: 470px;
+    position: relative;
+}
+.contact-way {
+    position: absolute;
+    width: 100%;
+    height: 210px;
+    padding: 40px 0px;
+    bottom: 0px;
+}
+.via-email {
+height: 160px;
+margin: 40px 20px;
+width: 270px;
+position: absolute;
+left: 52%;
+right: auto;
+background-color: rgb(255, 255, 255);
+border-radius: 5px;
+transition: .5s;
+box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.144);
+}
+.via-linkedin {
+    height: 160px;
+    margin: 40px 20px;
+    width: 270px;
+    position: absolute;
+    right: 52%;
+    left: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    transition: .5s;
+    box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.144);
+
+}
+.via-linkedin:hover {
+    transform: scale(1.03);
+}
+.via-email:hover {
+    transform: scale(1.03);
+}
+.heading {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+.contact-para {
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+}
+#link-icon, #email-icon{
+    font-size: 40px;
+    color: rgb(255, 102, 0);
+    
+}
+.div-for-icon {
+    width: 100%;
+    text-align: center;
+    height: 100px;
+    margin-top: 20px;
+}
+.way-p {
+    text-align: center;
+    font-size: 18px;
+}
+.email-form {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.425);
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.bg-active {
+    visibility: visible;
+    opacity: 1; 
+   
+}
+.modal {
+    background-color: white;
+    height: 400px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    position: relative;
+   
+}
+.link {
+    color: #000;
+}
+.send-a-msg {
+    font-size: 17px;
+}
+.name-inpt, .email-inpt, textarea {
+    border: none;
+    background-color: rgb(233, 233, 233);
+    border-radius: 3px;
+    height: 30px;
+    width: 280px;
+    text-align: center;
+    outline-color: rgb(250, 87, 11);
+    font-family: 'Tajawal', sans-serif;
+}
+::placeholder {
+    font-family: 'Tajawal', sans-serif;
+}
+.send {
+    border-radius: 20px;
+    height: 30px;
+    width: 100px;
+    border:none;
+    outline: none;
+    background: linear-gradient(90deg , rgb(255, 208, 0), rgb(255, 51, 0));
+    
+}
+/* side list */
+#side-list-js {
+    position: fixed;
+    top: 0px;
+    height: 100%;
+    width: 0px;
+    right: 0;
+    background-color: #dbdbdb;
+    overflow-y: hidden;
+    transition: all 1s;
+    z-index: 2;
+float: right;
+    display: block;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.59);
+}
+.side-list ul li{
+    display: block;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+clear: right;
+height: 40px;
+}
+.side-list ul {
+margin-top: 0px;
+height: 430px;
+    clear: right;
+    margin-top: 50px;
+    padding-top: 50px;
+
+
+}
+
+
+
+.side-list li{
+padding: 10px 10px 10px 10px;;
+height: 30px;
+
+overflow: hidden;
+margin: 0px;
+text-align: center;
+
+}
+.side-list a {
+    color: #000000;
+    direction: rtl;
+text-align: center;
+display: block;
+width: 100%;
+height: 50px;;
+margin: 0px;
+font-size: 15px;
+font-weight: 900;
+line-height: 2.5;
+}
+.side-list a:hover{
+   color: #0f0f0f;
+}
+.side-list ul li:hover{
+    display: block;
+   border-radius: 3px;
+   transition: 0.5s;
+   background-color: rgb(253, 195, 6);
+
+color: #000;
+}
+.nav-in-side {
+height: 57px;
+width: 100%;
+background-color: #696969;
+}
+.logo-in-side {
+width: 57px;
+float: right;
+height: 57px;
+margin: 0px;
+}
+.side-list ul li, a:hover{
+color: #000;
+}
+.side-list ul {
+   padding: 0px 0px;
+clear: both;
+   
+}
+.close-menu-button {
+   color: rgb(255, 166, 0);
+   font-size: 25px;
+position: absolute;
+top: 15px;
+   background: none;
+border: none;
+outline: none;
+cursor: pointer;
+}
+.close-menu-button:hover{
+color: rgb(255, 167, 0)
+}
+/* side list end */
+.nav-for-mobile{
+color: white;
+font-size: 20px;
+display: none;
+right: 10px;
+position: absolute;
+top: 10px;
+}
+span {
+    color: white;
+    font-family: 'Tajawal', sans-serif;
+    cursor: pointer;
+}
+textarea {
+    height: 80px;;
+}
+.back {
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    height: 30px;
+    width: 70px;
+    color: rgb(255, 60, 0);
+    font-size: 18px;
+    font-weight: 900px;
+    text-align: center;
+}
